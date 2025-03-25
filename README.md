@@ -1,15 +1,33 @@
-# 📈 Retail Sales Forecasting using Embeddings
+# 🛍️ Retail Sales Forecasting using Word2Vec Embeddings
 
 ## 📌 Overview
-Forecasted product sales using Word2Vec and Autoencoder-based embeddings for stores and customer behavior. Improved forecasting accuracy by **22%**, reduced overstocking by **18%**.
+This project demonstrates how to forecast product sales using customer-product interaction embeddings generated with Word2Vec. Embeddings were used as features for a regression model to predict sales.
 
 ## 🛠️ Tools & Tech
-- Python, scikit-learn, Keras
-- Word2Vec, Autoencoders, Time Series Forecasting
+- Python
+- Pandas, NumPy
+- Gensim (Word2Vec)
+- Scikit-learn (Random Forest)
+
+## 🔍 Key Features
+- Learned customer-product relationships as dense vectors
+- Used embeddings as input to a regression model
+- Forecasted future sales with improved accuracy
 
 ## 📊 Results
-- Accuracy improvement: +22%
-- Overstock cost reduction: -18%
+- Sample test MSE printed after model training
+- Embedding size: 16
+- Regressor: Random Forest
+
+## 🚀 How to Run
+```bash
+pip install pandas numpy gensim scikit-learn
+python forecast_embeddings.py
+```
+
+## 📁 Files
+- `sample_sales_data.csv`: Example dataset
+- `forecast_embeddings.py`: Full training pipeline
 
 ## 📌 Status
 ✅ Completed

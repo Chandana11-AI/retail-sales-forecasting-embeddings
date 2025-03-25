@@ -1,0 +1,11 @@
+customer_id,product_id,sales
+C1,P1,100
+C1,P2,200
+C2,P2,150
+C2,P3,300
+C3,P1,120
+C3,P4,220
+C4,P4,330
+C4,P5,180
+C5,P1,190
+C5,P3,260
